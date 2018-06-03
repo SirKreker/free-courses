@@ -10,4 +10,4 @@ for (var i=1; i<n; i++){
         str1 +=str[i];
     }
 }
-console.log(str1);
+process.stdout.write(str1);

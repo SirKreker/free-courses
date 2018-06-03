@@ -15,4 +15,5 @@ for (var i = 1; i<=n; i++){
 		s = i;
 	}
 }
-console.log(s);
+var answer = '' + s;
+process.stdout.write(answer);

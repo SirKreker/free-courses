@@ -10,7 +10,7 @@ var str2 = '';
 l1 = z1.length-1;
 l2 = z2.length-1;
 if (l1!=l2){
-    console.log('-1');
+    process.stdout.write('-1');
 } else {
     var s = 10001;
     for (var i=1; i<l1; i++){
@@ -43,8 +43,9 @@ if (l1!=l2){
         }
     }
     if (s<10001){
-        console.log(s);
+        var answer = ''+s;
+        process.stdout.write(answer);
     } else {
-        console.log('-1');
+        process.stdout.write('-1')
     }
 }
